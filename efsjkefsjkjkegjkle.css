@@ -1,0 +1,28 @@
+.atas{
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nam{
+    border: 20px;
+    text-align: center;
+    float:right
+}
+.cia{
+    text-align: center;
+    float: left;
+}
+.kimoi{
+    display:grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.haiyah{
+    float: left;
+}
+.em{
+    font-size: 200px;
+}
