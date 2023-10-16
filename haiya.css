@@ -1,0 +1,64 @@
+
+.kon{
+    border:2px solid black;
+    background-color: whitesmoke;
+    width:98.7%;
+    height:100px;
+    padding-right: 5px;
+    padding: 10px;
+}
+body{
+    background-color: wheat;
+}
+h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+div.mun{
+    float:left;
+    text-align: center;
+    background-color: azure;
+    width:10%;
+    height:100px;
+    width:590px;
+}
+.kol{
+    float:right;
+    background-color: azure;
+    width:589px;
+    height:100px;
+}
+@media screen and (max-width:600px){
+    div.non{
+        margin-left: 75px;
+        }
+        div.mun{
+            width: 100%;
+        }
+        div.kol{
+            width:100%;
+        }
+        div.kon{
+            width:96%;
+        }
+    }
+    @media screen and (min-width:601px){
+        div.non{
+            margin-left: 300px;
+            }
+            div.mun{
+                width: 50%;
+            }
+            div.kol{
+                width:50%;
+        }}
+@media screen and (min-width:1000px){
+    div.non{
+        margin-left: 600px;
+    }
+    div.mun{
+        float:left;
+    }
+}
